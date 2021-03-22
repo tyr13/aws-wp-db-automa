@@ -45,6 +45,6 @@ To use this script you need to install and configure the AWS CLI previously and 
 - Runs docker_wp.sh and docker_db.sh via SSH on the two EC2.
 
 # Run.sh
-- Simply runs above scripts in order. 
-- After the scripts finished you will see the database name, user and password with the IP of the current MySQL instance. With these you can easily setup your Wordpress via browser.
--:))
+- This file is responsible to run the scripts in correct order.
+- After the scripts finished you will see a text on the screen with the database name, user and password with the IP of the current MySQL instance in it. With these you can easily configure your Wordpress via browser.
+- Thanks for reading.
